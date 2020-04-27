@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "pixelakscontainer"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "pixelakscontainer"
+    spec:
+      containers:
+        - name: "pixelakscontainer"
+          image: "pixelcontainer.azurecr.io/pixelakscontainer"
+          ports:
+          - containerPort: 80
