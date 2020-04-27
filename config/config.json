@@ -1,0 +1,13 @@
+{
+    "development": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://heroku_1b8583sx:imr26dijrroekrg06abu4r05mp@ds017776.mlab.com:17776/heroku_1b8583sx",
+        "JWT_SECRET": "tekirdağrakısı içine su da koy"
+
+    },
+    "test": {
+        "PORT": 3000,
+        "MONGODB_URI": "mongodb://heroku_1b8583sx:imr26dijrroekrg06abu4r05mp@ds017776.mlab.com:17776/heroku_1b8583sx",
+        "JWT_SECRET": "tekirdağrakısı içine su da koy"
+    }
+}
