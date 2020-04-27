@@ -14,7 +14,6 @@ app.use(bodyParser.json());
 
 app.use('/api-docs',swaggerUI.serve,swaggerUI.setup(swaggerDocument));
 
-// hop
 app.get('/api-spec', async (req, res) => {
 
   res.send(swaggerDocument);
